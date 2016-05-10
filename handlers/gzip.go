@@ -1,9 +1,10 @@
 package handlers
 
 import (
-	"compress/gzip"
 	"io"
 	"net/http"
+
+	"github.com/klauspost/compress/gzip"
 )
 
 // Thanks to Andrew Gerrand for inspiration:
